@@ -3,6 +3,16 @@
 	[
 		{
 			"follow_symlinks": true,
+			"path": "D:\\Projects\\rust-urlparse",
+			"name": "Rust URL Parse"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\rust-argparse",
+			"name": "Rust Argparse"
+		},
+		{
+			"follow_symlinks": true,
 			"name": "Rust Yaml",
 			"path": "D:\\Projects\\rust-yaml"
 		},
