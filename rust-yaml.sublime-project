@@ -1,0 +1,41 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "Rust Yaml",
+			"path": "D:\\Projects\\rust-yaml"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Rust Datetime",
+			"path": "D:\\Projects\\rust-datetime"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Rust SDL",
+			"path": "D:\\Projects\\rust-sdl"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Rust Compiler",
+			"path": "D:\\Projects\\rust"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\sublime-plugin-sync-package-user"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\SublimeFileSync"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\FFmpeg"
+		}
+	]
+}
