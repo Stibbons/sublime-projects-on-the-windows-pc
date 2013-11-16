@@ -8,8 +8,13 @@
 		},
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Projects\\rust-tutorial-french",
-			"name": "Tutorial Rust en Français"
+			"name": "Tutorial Rust en Français",
+			"path": "D:\\Projects\\rust-tutorial-french"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\crayon-syntax-rust",
+			"name": "Rust Syntax highlighting for Crayon Wordpress Plugin"
 		},
 		{
 			"follow_symlinks": true,
