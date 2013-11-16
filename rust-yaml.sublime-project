@@ -3,8 +3,13 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Projects\\rust-for-pythonists",
-			"name": "Rust For Pythonists"
+			"name": "Rust For Pythonists",
+			"path": "D:\\Projects\\rust-for-pythonists"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\rust-tutorial-french",
+			"name": "Tutorial Rust en Français"
 		},
 		{
 			"follow_symlinks": true,
