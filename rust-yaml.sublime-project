@@ -3,13 +3,18 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Projects\\rust-urlparse",
-			"name": "Rust URL Parse"
+			"path": "D:\\Projects\\rust-for-pythonists",
+			"name": "Rust For Pythonists"
 		},
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Projects\\rust-argparse",
-			"name": "Rust Argparse"
+			"name": "Rust URL Parse",
+			"path": "D:\\Projects\\rust-urlparse"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Rust Argparse",
+			"path": "D:\\Projects\\rust-argparse"
 		},
 		{
 			"follow_symlinks": true,
