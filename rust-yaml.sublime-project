@@ -54,19 +54,23 @@
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\SublimeFileSync"
 		},
-        {
-            "follow_symlinks": true,
-            "path": "D:\\Projects\\FFmpeg"
-        },
-        {
-            "follow_symlinks": true,
-            "path": ".",
-            "name": "Sublime Projects",
-        },
 		{
 			"follow_symlinks": true,
-			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User",
-            "name": "Sublime User",
+			"path": "D:\\Projects\\FFmpeg"
 		},
+		{
+			"follow_symlinks": true,
+			"name": "Sublime Projects",
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Sublime User",
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User (OS Settings)"
+		}
 	]
 }
