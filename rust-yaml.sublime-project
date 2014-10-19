@@ -13,8 +13,8 @@
 		},
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Projects\\crayon-syntax-rust",
-			"name": "Rust Syntax highlighting for Crayon Wordpress Plugin"
+			"name": "Rust Syntax highlighting for Crayon Wordpress Plugin",
+			"path": "D:\\Projects\\crayon-syntax-rust"
 		},
 		{
 			"follow_symlinks": true,
@@ -54,13 +54,19 @@
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\SublimeFileSync"
 		},
+        {
+            "follow_symlinks": true,
+            "path": "D:\\Projects\\FFmpeg"
+        },
+        {
+            "follow_symlinks": true,
+            "path": ".",
+            "name": "Sublime Projects",
+        },
 		{
 			"follow_symlinks": true,
-			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User"
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User",
+            "name": "Sublime User",
 		},
-		{
-			"follow_symlinks": true,
-			"path": "D:\\Projects\\FFmpeg"
-		}
 	]
 }
