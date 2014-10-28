@@ -8,6 +8,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\guake-website"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\python-validate-hook"
 		}
 	]
 }
