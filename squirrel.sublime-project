@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\Squirrel"
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "Squirrel - Install and launch",
+            "cmd": ["C:\\Python27\\python.exe", "-u", "install\\install.py"],
+            "working_dir": "D:\\Projects\\Squirrel"
+        },
+        {
+            "name": "Squirrel - Unit test",
+            "cmd": ["install\\unittest.bat", "squirrel"],
+            "working_dir": "D:\\Projects\\Squirrel"
+        },
+        {
+            "name": "Squirrel - Build documentation",
+            "cmd": ["make.bat", "html"],
+            "working_dir": "D:\\Projects\\Squirrel\\doc"
+        }
+    ]
+}
