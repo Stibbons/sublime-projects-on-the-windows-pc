@@ -71,6 +71,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\User (OS Settings)"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\sublime-repo"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeCodeIntel"
 		}
 	]
 }
