@@ -10,18 +10,30 @@
     [
         {
             "name": "Squirrel - Install and launch",
-            "cmd": ["C:\\Python27\\python.exe", "-u", "install\\install.py"],
+            "cmd": ["python", "-u", "install\\install.py"],
+            "shell": true,
             "working_dir": "D:\\Projects\\Squirrel"
         },
         {
             "name": "Squirrel - Unit test",
             "cmd": ["install\\unittest.bat", "squirrel"],
+            "shell": true,
             "working_dir": "D:\\Projects\\Squirrel"
         },
         {
             "name": "Squirrel - Build documentation",
             "cmd": ["make.bat", "html"],
+            "shell": true,
             "working_dir": "D:\\Projects\\Squirrel\\doc"
+        },
+        {
+            "name": "Squirrel - Build Frontend",
+            "cmd": ["gulp", "build"],
+            "shell": true,
+            "working_dir": "D:\\Projects\\Squirrel\\frontend"
         }
-    ]
+    ],
+    "settings": {
+    	"pylint_path": "C:\\Python27\\Scripts\\pylint.exe"
+    }
 }
