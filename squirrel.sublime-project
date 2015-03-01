@@ -1,39 +1,76 @@
 {
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"python",
+				"-u",
+				"install\\install.py"
+			],
+			"name": "Squirrel - Install and launch",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"install\\unittest.bat",
+				"squirrel"
+			],
+			"name": "Squirrel - Unit test",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"make.bat",
+				"html"
+			],
+			"name": "Squirrel - Build documentation",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel\\doc"
+		},
+		{
+			"cmd":
+			[
+				"gulp",
+				"build"
+			],
+			"name": "Squirrel - Build Frontend",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel\\frontend"
+		}
+	],
 	"folders":
 	[
 		{
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\Squirrel"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\python-fiximports"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\package_control_channel"
 		}
 	],
-    "build_systems":
-    [
-        {
-            "name": "Squirrel - Install and launch",
-            "cmd": ["python", "-u", "install\\install.py"],
-            "shell": true,
-            "working_dir": "D:\\Projects\\Squirrel"
-        },
-        {
-            "name": "Squirrel - Unit test",
-            "cmd": ["install\\unittest.bat", "squirrel"],
-            "shell": true,
-            "working_dir": "D:\\Projects\\Squirrel"
-        },
-        {
-            "name": "Squirrel - Build documentation",
-            "cmd": ["make.bat", "html"],
-            "shell": true,
-            "working_dir": "D:\\Projects\\Squirrel\\doc"
-        },
-        {
-            "name": "Squirrel - Build Frontend",
-            "cmd": ["gulp", "build"],
-            "shell": true,
-            "working_dir": "D:\\Projects\\Squirrel\\frontend"
-        }
-    ],
-    "settings": {
-    	"pylint_path": "C:\\Python27\\Scripts\\pylint.exe"
-    }
+	"settings":
+	{
+		"pylint_path": "C:\\Python27\\Scripts\\pylint.exe",
+		"python_fiximports":
+		{
+			"autofix_on_save": true
+		},
+		"python_interpreter": "D:\\Projects\\Squirrel\\workdir\\Scripts\\python.exe",
+		"python_organize_imports_on_save": false,
+		"rope_autoimport_modules":
+		[
+			"twisted.*"
+		],
+		"src_root": "D:\\Projects\\Squirrel\\backend"
+	}
 }
