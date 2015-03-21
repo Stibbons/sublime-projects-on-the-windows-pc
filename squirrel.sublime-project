@@ -1,30 +1,36 @@
 {
-	"build_systems":
-	[
+	"build_systems": [
 		{
-			"cmd":
-			[
+			"cmd": [
 				"python",
 				"-u",
-				"install\\install.py"
+				"install\\install.py",
+				"-l"
 			],
 			"name": "Squirrel - Install and launch",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd":
-			[
+			"cmd": [
 				"install\\unittest.bat",
 				"squirrel"
 			],
-			"name": "Squirrel - Unit test",
+			"name": "Squirrel - Unit tests",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd":
-			[
+			"cmd": [
+				"install\\unittest.bat",
+				"squirrel_integration_tests"
+			],
+			"name": "Squirrel - Integration tests",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd": [
 				"make.bat",
 				"html"
 			],
@@ -33,18 +39,34 @@
 			"working_dir": "D:\\Projects\\Squirrel\\doc"
 		},
 		{
-			"cmd":
-			[
+			"cmd": [
 				"gulp",
 				"build"
 			],
 			"name": "Squirrel - Build Frontend",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel\\frontend"
+		},
+		{
+			"cmd": [
+				"gulp",
+				"serve"
+			],
+			"name": "Squirrel - Serve Frontend (dev)",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel\\frontend"
+		},
+		{
+			"cmd": [
+				"python",
+				"fastswitch.py"
+			],
+			"name": "FastSwitch Test",
+			"shell": true,
+			"working_dir": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch\\lib"
 		}
 	],
-	"folders":
-	[
+	"folders": [
 		{
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\Squirrel"
@@ -56,21 +78,37 @@
 		{
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\package_control_channel"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\python-fiximports\\libs"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Projects\\python-fiximports\\messages"
 		}
 	],
-	"settings":
-	{
+	"settings": {
 		"pylint_path": "C:\\Python27\\Scripts\\pylint.exe",
-		"python_fiximports":
-		{
+		"python_fiximports": {
 			"autofix_on_save": true
 		},
 		"python_interpreter": "D:\\Projects\\Squirrel\\workdir\\Scripts\\python.exe",
 		"python_organize_imports_on_save": false,
-		"rope_autoimport_modules":
-		[
+		"rope_autoimport_modules": [
 			"twisted.*"
 		],
-		"src_root": "D:\\Projects\\Squirrel\\backend"
+		"src_root": "D:\\Projects\\Squirrel\\backend",
+		"python_unit_test_runner": {
+			"project_roots": "D:\\Projects\\Squirrel",
+			"use_project_root": true,
+			"before_test": "install\\launcher.bat no_new_window D:\\Projects\\Squirrel\\workdir",
+			"test_command": "trial squirrel_integration_tests.test_crawler",
+			"show_color": true
+		}
 	}
 }
