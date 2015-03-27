@@ -5,9 +5,9 @@
 				"python",
 				"-u",
 				"install\\install.py",
-				"-l"
+				"-d"
 			],
-			"name": "Squirrel - Install and launch",
+			"name": "Squirrel - Install and launch (dev)",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
@@ -58,13 +58,24 @@
 		},
 		{
 			"cmd": [
+				"install\\launcher.bat",
+				"new_window",
+				"D:\\Projects\\Squirrel\\workdir",
+				"squirrel-server"
+			],
+			"name": "Squirrel - Serve backend (dev)",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd": [
 				"python",
 				"fastswitch.py"
 			],
 			"name": "FastSwitch Test",
 			"shell": true,
 			"working_dir": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch\\lib"
-		}
+		},
 	],
 	"folders": [
 		{
