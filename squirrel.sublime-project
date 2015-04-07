@@ -5,9 +5,9 @@
 				"python",
 				"-u",
 				"install\\install.py",
-				"-l"
+				"serve:dev"
 			],
-			"name": "Squirrel - Install and launch (prod)",
+			"name": "Squirrel - Install and launch (dev)",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
@@ -16,9 +16,9 @@
 				"python",
 				"-u",
 				"install\\install.py",
-				"-d"
+				"serve:prod"
 			],
-			"name": "Squirrel - Install and launch (dev)",
+			"name": "Squirrel - Install and launch (prod)",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
