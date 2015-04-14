@@ -115,6 +115,15 @@
 		},
 		{
 			"path": "D:\\Projects\\python-project-bootstrap"
+		},
+		{
+			"path": "D:\\Projects\\heroku-buildpack-python-installer"
+		},
+		{
+			"path": "D:\\Projects\\heroku-buildpack-multi-subdir"
+		},
+		{
+			"path": "D:\\Projects\\heroku-buildpack-libffi"
 		}
 	],
 	"settings": {
