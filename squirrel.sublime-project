@@ -72,7 +72,7 @@
 				"install\\launcher.bat",
 				"new_window",
 				"D:\\Projects\\Squirrel\\workdir",
-				"squirrel-server"
+				"squirrel-devbackend"
 			],
 			"name": "Squirrel - Serve backend (dev)",
 			"shell": true,
