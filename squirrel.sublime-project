@@ -24,6 +24,16 @@
 		},
 		{
 			"cmd": [
+				"python",
+				"-u",
+				"install\\uninstall.py",
+			],
+			"name": "Squirrel - Uninstall",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd": [
 				"install\\unittest.bat",
 				"squirrel"
 			],
