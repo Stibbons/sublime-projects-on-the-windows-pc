@@ -79,10 +79,10 @@
 		},
 		{
 			"cmd": [
-				"install\\launcher.bat",
-				"new_window",
-				"D:\\Projects\\Squirrel\\workdir",
-				"squirrel-devbackend"
+				"python",
+				"-u",
+				"install\\install.py",
+				"serve:devbackend"
 			],
 			"name": "Squirrel - Serve backend (dev)",
 			"shell": true,
