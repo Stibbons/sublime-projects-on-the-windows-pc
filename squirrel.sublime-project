@@ -86,7 +86,17 @@
 			"name": "FastSwitch Test",
 			"shell": true,
 			"working_dir": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch\\lib"
-		}
+		}, {
+			"cmd": [
+				"python",
+				"-u",
+				"install\\install.py",
+				"update:all"
+			],
+			"name": "Squirrel - Update all",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
 	],
 	"folders": [
 		{
