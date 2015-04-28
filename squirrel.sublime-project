@@ -1,7 +1,9 @@
 {
-	"build_systems": [
+	"build_systems":
+	[
 		{
-			"cmd": [
+			"cmd":
+			[
 				"python",
 				"-u",
 				"install\\install.py",
@@ -12,7 +14,8 @@
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"python",
 				"-u",
 				"install\\install.py",
@@ -23,17 +26,19 @@
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"python",
 				"-u",
-				"install\\uninstall.py",
+				"install\\uninstall.py"
 			],
 			"name": "Squirrel - Uninstall",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"install\\unittest.bat",
 				"squirrel"
 			],
@@ -42,7 +47,8 @@
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"install\\unittest.bat",
 				"squirrel_integration_tests"
 			],
@@ -51,7 +57,8 @@
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"make.bat",
 				"html"
 			],
@@ -60,7 +67,8 @@
 			"working_dir": "D:\\Projects\\Squirrel\\doc"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"gulp",
 				"build"
 			],
@@ -69,7 +77,8 @@
 			"working_dir": "D:\\Projects\\Squirrel\\frontend"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"gulp",
 				"serve"
 			],
@@ -78,7 +87,8 @@
 			"working_dir": "D:\\Projects\\Squirrel\\frontend"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"python",
 				"-u",
 				"install\\install.py",
@@ -89,15 +99,18 @@
 			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
-			"cmd": [
+			"cmd":
+			[
 				"python",
 				"fastswitch.py"
 			],
 			"name": "FastSwitch Test",
 			"shell": true,
 			"working_dir": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch\\lib"
-		}, {
-			"cmd": [
+		},
+		{
+			"cmd":
+			[
 				"python",
 				"-u",
 				"install\\install.py",
@@ -106,9 +119,10 @@
 			"name": "Squirrel - Update all",
 			"shell": true,
 			"working_dir": "D:\\Projects\\Squirrel"
-		},
+		}
 	],
-	"folders": [
+	"folders":
+	[
 		{
 			"path": "D:\\Projects\\Squirrel"
 		},
@@ -120,9 +134,6 @@
 		},
 		{
 			"path": "D:\\Projects\\package_control_channel"
-		},
-		{
-			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch"
 		},
 		{
 			"path": "D:\\Projects\\python-fiximports\\libs"
@@ -144,23 +155,30 @@
 		},
 		{
 			"path": "D:\\Projects\\heroku-buildpack-libffi"
+		},
+		{
+			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\JsFormat"
 		}
 	],
-	"settings": {
+	"settings":
+	{
 		"pylint_path": "C:\\Python27\\Scripts\\pylint.exe",
-		"python_fiximports": {
+		"python_fiximports":
+		{
 			"autofix_on_save": true
 		},
 		"python_interpreter": "D:\\Projects\\Squirrel\\workdir\\Scripts\\python.exe",
 		"python_organize_imports_on_save": false,
-		"python_unit_test_runner": {
+		"python_unit_test_runner":
+		{
 			"before_test": "install\\launcher.bat no_new_window D:\\Projects\\Squirrel\\workdir",
 			"project_roots": "D:\\Projects\\Squirrel",
 			"show_color": true,
 			"test_command": "trial squirrel_integration_tests.test_crawler",
 			"use_project_root": true
 		},
-		"rope_autoimport_modules": [
+		"rope_autoimport_modules":
+		[
 			"twisted.*"
 		],
 		"src_root": "D:\\Projects\\Squirrel\\backend"
