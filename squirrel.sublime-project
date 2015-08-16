@@ -30,6 +30,18 @@
 			[
 				"python",
 				"-u",
+				"install\\install.py",
+				"start:prod"
+			],
+			"name": "Squirrel - Start Prod server (prod). No build!",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"python",
+				"-u",
 				"install\\uninstall.py"
 			],
 			"name": "Squirrel - Uninstall",
@@ -158,6 +170,9 @@
 		},
 		{
 			"path": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\JsFormat"
+		},
+		{
+			"path": "D:\\Projects\\heroku-buildpack-nodejs"
 		}
 	],
 	"settings":
