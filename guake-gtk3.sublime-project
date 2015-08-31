@@ -13,25 +13,13 @@
 		{
 			"follow_symlinks": true,
 			"path": "D:\\Projects\\guake"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "D:\\Projects\\guake-website"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "D:\\Projects\\python-validate-hook"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "D:\\Projects\\update-changelog"
 		}
 	],
 	"settings":
 	{
 		"extra_paths":
 		[
-			"D:\\Projects\\guake\\src"
+			"D:\\Projects\\guake\\src-gth3"
 		],
 		"python_bin": "C:\\Python27\\python.exe",
 		"python_fiximports":
@@ -42,7 +30,7 @@
 		"python_interpreter_path": "C:\\Python27\\python.exe",
 		"python_package_paths":
 		[
-			"D:\\Projects\\guake\\src"
+			"D:\\Projects\\guake\\src-gtk3"
 		]
 	}
 }
