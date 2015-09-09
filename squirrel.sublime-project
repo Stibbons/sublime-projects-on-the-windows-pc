@@ -91,6 +91,18 @@
 		{
 			"cmd":
 			[
+				"python",
+				"-u",
+				"install\\install.py",
+				"install:all-clean"
+			],
+			"name": "Squirrel - Prod & Clean",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
+		},
+		{
+			"cmd":
+			[
 				"gulp",
 				"serve"
 			],
@@ -119,6 +131,18 @@
 			"name": "FastSwitch Test",
 			"shell": true,
 			"working_dir": "C:\\Users\\gaetan\\AppData\\Roaming\\Sublime Text 3\\Packages\\FastSwitch\\lib"
+		},
+		{
+			"cmd":
+			[
+				"python",
+				"-u",
+				"install\\install.py",
+				"build:frontend"
+			],
+			"name": "Squirrel - Build (prod)",
+			"shell": true,
+			"working_dir": "D:\\Projects\\Squirrel"
 		},
 		{
 			"cmd":
@@ -183,6 +207,9 @@
 	],
 	"settings":
 	{
+		"anaconda_linting": true,
+		"anaconda_linting_behaviour": "always",
+		"pep257": false,
 		"pylint_path": "C:\\Python27\\Scripts\\pylint.exe",
 		"python_fiximports":
 		{
@@ -203,9 +230,6 @@
 			"twisted.*"
 		],
 		"src_root": "D:\\Projects\\Squirrel\\backend",
-		"pep257": false,
-		"anaconda_linting": true,
-		"anaconda_linting_behaviour": "always",
 		"use_pylint": false,
 		"validate_imports": true
 	}
